@@ -357,7 +357,7 @@ local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
         currentPos = targetPos
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(currentPos)
         task.wait()
-                                           local localplayer = game.Players.LocalPlayer
+        local localplayer = game.Players.LocalPlayer
 local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
         local HRP = Char and Char:FindFirstChild("HumanoidRootPart")
         if not Char or not HRP then
@@ -402,7 +402,9 @@ local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
         
         currentPos = targetPos
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(currentPos)
-        task.wait(2)
+        task.wait()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-73.19, -100.23, -1074.84)
+	task.wait(1)
         localplayer = game.Players.LocalPlayer
  Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
          HRP = Char and Char:FindFirstChild("HumanoidRootPart")
