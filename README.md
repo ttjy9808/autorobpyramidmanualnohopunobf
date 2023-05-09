@@ -96,7 +96,7 @@ local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
         currentPos = targetPos
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(currentPos)
         task.wait()
-        task.wait(1)
+        task.wait(2)
            local localplayer = game.Players.LocalPlayer
 local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
         local HRP = Char and Char:FindFirstChild("HumanoidRootPart")
