@@ -411,13 +411,13 @@ local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
         end
          p = HRP.Position
          hrd = game.Players.LocalPlayer.Character.HumanoidRootPart
-         x = -2798.98
-         y = -100.38
-       	 z = -288.19
-        hrd.CFrame = CFrame.new(p.x, -100.38, p.z)
+         x = 144.31
+         y = -98.31
+       	 z = -1145.7
+        hrd.CFrame = CFrame.new(p.x, -98.31, p.z)
         wait(0.5)
-         currentPos = Vector3.new(p.x, -100.38, p.z)
-         targetPos = Vector3.new(x, -100.38, z)
+         currentPos = Vector3.new(p.x, -98.31, p.z)
+         targetPos = Vector3.new(x, -98.31, z)
 
          direction = (targetPos - currentPos).Unit
          distance = (targetPos - currentPos).Magnitude
@@ -434,7 +434,7 @@ local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
         task.wait(0.1)
          p = hrd.Position
         
-         currentPos = Vector3.new(x, -100.38, z)
+         currentPos = Vector3.new(x, -98.31, z)
          targetPos = Vector3.new(x, y, z)
 
          direction = (targetPos - currentPos).Unit
@@ -460,39 +460,39 @@ local char = game.Players.LocalPlayer.Character
 local cPos = char.HumanoidRootPart.Position
 local fPos = cPos.Z + 2
 
-char.Humanoid:MoveTo(Vector3.new(-2788.07,-98.68,-357.97))
+char.Humanoid:MoveTo(Vector3.new(122.72,-98.58,-1217.82))
 task.wait(6)
 keyPress(Enum.KeyCode.E, true)
 wait(6)
-char.Humanoid:MoveTo(Vector3.new(-2797.84,-97.17,-364.3))
+char.Humanoid:MoveTo(Vector3.new(111.02,-97.8,-1219.99))
 task.wait(1)
 keyPress(Enum.KeyCode.E, true)
 wait(6)
-char.Humanoid:MoveTo(Vector3.new(-2788.07,-98.68,-357.97))
+char.Humanoid:MoveTo(Vector3.new(122.72,-98.58,-1217.82))
 task.wait(1)
 keyPress(Enum.KeyCode.E, true)
 wait(6)
-char.Humanoid:MoveTo(Vector3.new(-2797.84,-97.17,-364.3))
+char.Humanoid:MoveTo(Vector3.new(111.02,-97.8,-1219.99))
 task.wait(1)
 keyPress(Enum.KeyCode.E, true)
 wait(6)
-char.Humanoid:MoveTo(Vector3.new(-2788.07,-98.68,-357.97))
+char.Humanoid:MoveTo(Vector3.new(122.72,-98.58,-1217.82))
 task.wait(1)
 keyPress(Enum.KeyCode.E, true)
 wait(6)
-char.Humanoid:MoveTo(Vector3.new(-2797.84,-97.17,-364.3))
+char.Humanoid:MoveTo(Vector3.new(111.02,-97.8,-1219.99))
 task.wait(1)
 keyPress(Enum.KeyCode.E, true)
 wait(6)
-char.Humanoid:MoveTo(Vector3.new(-2788.07,-98.68,-357.97))
+char.Humanoid:MoveTo(Vector3.new(122.72,-98.58,-1217.82))
 task.wait(1)
 keyPress(Enum.KeyCode.E, true)
 wait(6)
-char.Humanoid:MoveTo(Vector3.new(-2797.84,-97.17,-364.3))
+char.Humanoid:MoveTo(Vector3.new(111.02,-97.8,-1219.99))
 task.wait(1)
 keyPress(Enum.KeyCode.E, true)
 wait(6)
-char.Humanoid:MoveTo(Vector3.new(-2788.07,-98.68,-357.97))
+char.Humanoid:MoveTo(Vector3.new(122.72,-98.58,-1217.82))
 task.wait(1)
 localplayer = game.Players.LocalPlayer
  Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
@@ -502,9 +502,9 @@ localplayer = game.Players.LocalPlayer
         end
          p = HRP.Position
          hrd = game.Players.LocalPlayer.Character.HumanoidRootPart
-         x = -2793.65
-         y = -100.38
-       	 z = -315.97
+         x = 140.31
+         y = -100.28
+       	 z = -1173.87
         hrd.CFrame = CFrame.new(p.x, -100.38, p.z)
         wait(0.5)
          currentPos = Vector3.new(p.x, -100.38, p.z)
@@ -548,13 +548,13 @@ localplayer = game.Players.LocalPlayer
         end
          p = HRP.Position
          hrd = game.Players.LocalPlayer.Character.HumanoidRootPart
-         x = -2779.61
-         y = -51.38
-       	 z = -319.53
-        hrd.CFrame = CFrame.new(p.x, -51.38, p.z)
+         x = 149.96
+         y = -51.28
+       	 z = -1186.39
+        hrd.CFrame = CFrame.new(p.x, -51.28, p.z)
         wait(0.5)
-         currentPos = Vector3.new(p.x, -51.38, p.z)
-         targetPos = Vector3.new(x, -51.38, z)
+         currentPos = Vector3.new(p.x, -51.28, p.z)
+         targetPos = Vector3.new(x, -51.28, z)
 
          direction = (targetPos - currentPos).Unit
          distance = (targetPos - currentPos).Magnitude
@@ -571,7 +571,7 @@ localplayer = game.Players.LocalPlayer
         task.wait(0.1)
          p = hrd.Position
         
-         currentPos = Vector3.new(x, -51.38, z)
+         currentPos = Vector3.new(x, -51.28, z)
          targetPos = Vector3.new(x, y, z)
 
          direction = (targetPos - currentPos).Unit
