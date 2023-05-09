@@ -365,13 +365,13 @@ local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
         end
         local p = HRP.Position
         local hrd = game.Players.LocalPlayer.Character.HumanoidRootPart
-        local x = -72.82
-        local y = -94.71
-        local z = -1074.52
-        hrd.CFrame = CFrame.new(p.x, -94.71, p.z)
+        local x = -73.19
+        local y = -100.23
+        local z = -1074.84
+        hrd.CFrame = CFrame.new(p.x, -100.231, p.z)
         wait(0.5)
-        local currentPos = Vector3.new(p.x, -94.71, p.z)
-        local targetPos = Vector3.new(x, -94.71, z)
+        local currentPos = Vector3.new(p.x, -100.23, p.z)
+        local targetPos = Vector3.new(x, -100.23, z)
 
         local direction = (targetPos - currentPos).Unit
         local distance = (targetPos - currentPos).Magnitude
@@ -388,7 +388,7 @@ local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
         task.wait(0.1)
         local p = hrd.Position
         
-        local currentPos = Vector3.new(x, -94.71, z)
+        local currentPos = Vector3.new(x, -100.23, z)
         local targetPos = Vector3.new(x, y, z)
 
         local direction = (targetPos - currentPos).Unit
