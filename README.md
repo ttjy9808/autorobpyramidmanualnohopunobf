@@ -108,10 +108,10 @@ local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
         local x = -523.23
         local y = -29.06
         local z = -1237.31
-        hrd.CFrame = CFrame.new(p.x, -28, p.z)
+        hrd.CFrame = CFrame.new(p.x, -29.06, p.z)
         wait(0.5)
-        local currentPos = Vector3.new(p.x, -28, p.z)
-        local targetPos = Vector3.new(x, -28, z)
+        local currentPos = Vector3.new(p.x, -29.06, p.z)
+        local targetPos = Vector3.new(x, -29.06, z)
 
         local direction = (targetPos - currentPos).Unit
         local distance = (targetPos - currentPos).Magnitude
@@ -128,7 +128,7 @@ local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
         task.wait(0.1)
         local p = hrd.Position
         
-        local currentPos = Vector3.new(x, -28, z)
+        local currentPos = Vector3.new(x, -29.06, z)
         local targetPos = Vector3.new(x, y, z)
 
         local direction = (targetPos - currentPos).Unit
@@ -155,10 +155,10 @@ local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
         local x = -514.63
         local y = -29.06
         local z = -1090.5
-        hrd.CFrame = CFrame.new(p.x, -28, p.z)
+        hrd.CFrame = CFrame.new(p.x, -29.06, p.z)
         wait(0.5)
-        local currentPos = Vector3.new(p.x, -28, p.z)
-        local targetPos = Vector3.new(x, -28, z)
+        local currentPos = Vector3.new(p.x, -29.06, p.z)
+        local targetPos = Vector3.new(x, -29.06, z)
 
         local direction = (targetPos - currentPos).Unit
         local distance = (targetPos - currentPos).Magnitude
@@ -175,7 +175,7 @@ local Char = localplayer.Character or workspace:FindFirstChild(localplayer.Name)
         task.wait(0.1)
         local p = hrd.Position
         
-        local currentPos = Vector3.new(x, -28, z)
+        local currentPos = Vector3.new(x, -29.06, z)
         local targetPos = Vector3.new(x, y, z)
 
         local direction = (targetPos - currentPos).Unit
